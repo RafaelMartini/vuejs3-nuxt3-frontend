@@ -1,0 +1,48 @@
+.card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .status-banner {
+    background-color: gray;
+    color: white;
+    padding: 5px;
+  }
+  
+  .status-1 { background-color: #FFC107; }
+  .status-2 { background-color: #4CAF50; }
+  .status-3 { background-color: #F44336; }
+  
+  .project-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .price {
+    background-color: #673AB7; 
+    color: white; 
+    padding: 10px 20px; 
+    border-radius: 10px; 
+    display: inline-block; 
+  }
+  
+  .price span.currency {
+    font-weight: normal; 
+    font-size: 0.8em; 
+    margin-right: 5px; 
+  }
+  
+  .price span.amount {
+    font-weight: bold; 
+    font-size: 1.4em; 
+  }
+  
+  
+  .project-title {
+    font-size: 1.5em;
+    margin: 10px 0;
+  }

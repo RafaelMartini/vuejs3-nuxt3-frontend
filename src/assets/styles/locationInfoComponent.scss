@@ -1,0 +1,54 @@
+.location-info-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .text-section {
+    flex: 1 1 50%;
+    margin-right: 20px;
+    box-sizing: border-box;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #810059;
+    margin-bottom: 10px;
+    text-align: left; 
+  }
+  
+  .description {
+    margin-bottom: 20px;
+  }
+  
+  .highlighted-text {
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .waze-button {
+    background-color: #00A4E4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: left;
+  }
+  
+  .location-details {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .location {
+    font-size: 14px;
+    color: #810059;
+  }
