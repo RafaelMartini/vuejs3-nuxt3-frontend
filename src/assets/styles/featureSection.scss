@@ -1,8 +1,16 @@
 .feature-section {
-  display: flex;
-  justify-content: center; /* Centraliza os itens horizontalmente */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 20px;
   padding: 20px 0;
-  max-width: 1200px; /* Limita a largura máxima */
-  margin: 0 auto; /* Centraliza o contêiner na página */
+  max-width: 1200px; 
+  margin: 0 auto; 
+}
+
+@media (max-width: 768px) {
+  .feature-section {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; 
+    padding: 1rem;
+  }
 }

@@ -70,4 +70,34 @@
       text-align: center;
       width: 100%;
     }
+
+    @media (max-width: 768px) {
+      .main-content {
+        display: inline;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+      }
+
+      .image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        img {
+          border-radius: 50%;
+          width: 400px;
+          height: 400px;
+        }
+
+        .footer-text {
+          margin-top: 20px;
+          font-size: 18px;
+          text-align: center;
+          width: 100%;
+          font-weight: 900;
+        }
+    }
+
   }
+}

@@ -8,7 +8,9 @@
         <p class="highlighted-text">
           There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
         </p>
-        <button class="waze-button">Ir com Waze</button>
+        <button class="waze-button">        
+          <img src="@/assets/images/icons/waze.png" alt="Waze Logo" class="waze-icon" />
+          Ir com Waze</button>
       </div>
       <div class="location-details">
         <span class="location">📍 Lorem Ipsum 18,6 km</span>
