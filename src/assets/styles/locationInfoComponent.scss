@@ -5,7 +5,7 @@
     padding: 20px;
     max-width: 1000px;
     margin: 0 auto;
-  }
+  
   
   .text-section {
     flex: 1 1 50%;
@@ -31,14 +31,15 @@
   }
   
   .waze-button {
-    background-color: #00A4E4;
-    color: white;
+    background-color: #05c8f7;
+    color: black;
     border: none;
-    padding: 10px 20px;
-    font-size: 16px;
+    padding: 10px 70px;
+    font-size: 20px;
     cursor: pointer;
     border-radius: 5px;
     text-align: left;
+    font-weight: 600;
   }
   
   .location-details {
@@ -52,3 +53,14 @@
     font-size: 14px;
     color: #810059;
   }
+
+  @media (max-width: 768px) {
+    .location-details {
+      flex-direction: column; /* Stacks items vertically on small screens */
+    }
+  
+    .location {
+      flex: 1 1 100%; /* Full width on small screens */
+    }
+  }
+}
